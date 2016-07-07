@@ -1,0 +1,139 @@
+body{
+    font-family: 'bariol',Helvetica,Arial,sans-serif!important;
+}
+h2 {
+    margin-bottom : 20px;
+
+    font-size     : 24px;
+    font-weight   : bold;
+}
+
+.error {
+    color : red;
+}
+
+label {
+    display   : block;
+    font-size : 20px;
+}
+
+label + label {
+    margin-top : 20px;
+}
+
+/*input[type=text] {
+  
+    padding     : 2px;
+
+    font-family : monospace;
+    font-size   : 20px;
+}*/
+/*
+textarea {
+    height      : 400px;
+    width       : 500px;
+
+    font-family : monospace;
+    font-size   : 17px;
+}*/
+
+input[type=submit] {
+    font-size : 22px;
+}
+
+.main-title {
+    display         : block;
+
+    margin-bottom   : 30px;
+
+    font-size       : 40px;
+    font-weight     : bold;
+    color           : #222;
+    text-align      : center;
+    text-decoration : none;
+}
+
+.post + .post {
+    margin-top : 15px;
+}
+
+.post-heading {
+    position      : relative;
+    border-bottom : 3px solid #666;
+}
+
+.post-title {
+    font-size   : 24px;
+    font-weight : bold;
+}
+
+.post-date {
+    position : absolute;
+    right    : 0px;
+    bottom   : 0px;
+
+    color    : #999;
+}
+
+.post-content {
+    margin-top : 5px;
+}
+
+.navbar-brand {
+    float   : none;
+    padding : 5px;
+}
+
+.navbar-center {
+    position   : absolute;
+    top        : 0;
+    left       : 0;
+
+    height     : 100%;
+    width      : 100%;
+    margin     : auto;
+
+    text-align : center;
+}
+
+.active{
+    background : black ;
+    color      : white;
+}
+
+.content{
+        /*height: 200px;*/
+    margin-top    : 13px;
+    margin-bottom : 5px;
+    padding       : 10px;
+
+    border        : solid 1px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color : white;
+}
+
+.cont{
+    max-width : 300px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color : white;
+}
+.overwrite{
+    font-size: 13px!important;
+    margin-bottom: 10px;
+}
+textarea.form-control {
+    height: auto;
+    width: 140%!important;
+    font-family: monospace;
+    font-size:20px;
+}  
+input[type=text] {
+    width: 140%!important;
+    padding: 2px;
+    font-family: monospace;
+    font-size: 20px;
+}
